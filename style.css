@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    background-color: #cab7fd;
+    margin: auto;
+    margin-top: 10px;
+}
+
+input, #submit {
+    margin-top: 10px;
+}
+
+#submitButton {
+    background-color: #d1f5fc;
+}

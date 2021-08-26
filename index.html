@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>What is the weather now?</h1>
+    <p>Insert a zip code below:</p>
+    <main>
+        <form>
+            <input id="userZip" type="text" placeholder="Zip Code"/>
+            <input type="submit" value="Get Current Weather" id='submitButton' />
+          </form>
+      <h4>City</h4>
+      <p id="zip"></p>
+      <h4>Temperature</h4>
+      <p id="temp"></p>
+      <h4>Feels Like</h4>
+      <p id="feel"></p>
+      <h4>Humidity</h4>
+      <p id='humidity'></p>
+      <h4>Descriptiton</h4>
+      <p id=description></p>
+    </main>
+</body>
+</html>
