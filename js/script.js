@@ -1,3 +1,5 @@
+// do not use origin use github for pushing to personal github
+
 let weatherData;
 const $temp = $('#temp');
 const $feel = $('#feel');
