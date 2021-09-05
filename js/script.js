@@ -12,7 +12,7 @@ const $description = $('#description')
 const handleGetData = (event) => {
     event.preventDefault();
     $.ajax({
-        url: `http://api.openweathermap.org/data/2.5/weather?zip=${$input.val()},us&appid=39744aae841aa91c6e1b6eca4b0a88b4&units=imperial`
+        url: `https://api.openweathermap.org/data/2.5/weather?zip=${$input.val()},us&appid=39744aae841aa91c6e1b6eca4b0a88b4&units=imperial`
     }).then((data) => {
         //console.log(data);
         weatherData = data;
